@@ -1,0 +1,62 @@
+.outer{
+background-color: #5D4A44;
+ color: antiquewhite;
+ border-radius: 10px;
+ padding: 14px;
+
+ box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.75);
+
+}
+
+
+
+.canterIt{
+
+    display: flex;
+    justify-content: center;
+}
+
+.newsIMG{
+    max-height: 4.5rem;
+    max-width: 4.5rem;
+    border-radius: 100%;
+}
+
+form{
+.center{
+    @extend.canterIt
+}
+input{
+
+    background-color: floralwhite;
+    margin-left: auto;
+}
+
+div{
+    margin-top: 1rem;
+}
+
+button{
+    padding: 0.8rem;
+    background-color: rgb(218, 87, 36);
+    border-radius: 5px;
+    
+    border-width: 0;
+    color: white;
+
+    font-style: oblique;
+    border-color: #d6aea2;
+border-left-width: .5px;
+border-top-width: .5px;
+
+}
+.space-between{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+}

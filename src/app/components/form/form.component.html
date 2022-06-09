@@ -1,0 +1,28 @@
+<div class="outer" >
+    <form [formGroup]="form">
+        <div class="form-group">
+            <div class="center">
+            <img class="newsIMG" src="https://www.citypng.com/public/uploads/preview/flat-newspaper-news-round-icon-11637079201xklmcapuv9.png" alt="insert pic">
+        </div>
+            <br>
+            <div class="space-between">
+            <label for="exampleInputName">Name</label>
+          <input formControlName="name"  type="text" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter name">
+        </div>
+        <div class="space-between">
+          <label for="exampleInputEmail1">Email address</label>
+          <input formControlName="email"  type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+     
+          <div>
+          <small>We'll never share your email with anyone else.</small>
+        </div>
+        </div>
+       
+       <div class="center">
+          
+        <button (click)="addUser()" type="button">Subscribe</button>
+    </div>
+    </form>
+    
+    </div>
